@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
